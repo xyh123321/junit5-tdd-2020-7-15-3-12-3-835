@@ -8,6 +8,9 @@ public class FizzBuzz {
             return "FizzBuzz";
         }
 
+        if(inputNum %3 == 0 && inputNum %7 == 0){
+            return "FizzWhizz";
+        }
         if(inputNum %3 == 0) {
             return "Fizz";
         }
