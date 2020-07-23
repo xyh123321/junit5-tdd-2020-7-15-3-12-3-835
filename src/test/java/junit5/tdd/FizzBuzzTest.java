@@ -18,6 +18,18 @@ public class FizzBuzzTest {
         //then
         assertEquals("1", res);
 
+    }
 
+    @Test
+    void should_return_fizz_when_count_off_given_3() {
+        //given
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        int inputNum = 3;
+
+        //when
+        String res = fizzBuzz.play(3);
+
+        //then
+        assertEquals("Fizz", res);
     }
 }
