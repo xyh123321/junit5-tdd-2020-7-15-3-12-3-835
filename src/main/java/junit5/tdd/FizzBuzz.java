@@ -4,6 +4,10 @@ public class FizzBuzz {
 
     public String play(int inputNum) {
 
+        if(inputNum %3 == 0 && inputNum %5 ==0 && inputNum %7 == 0) {
+            return "FizzBuzzWhizz";
+        }
+
         if(inputNum %3 == 0 && inputNum %5 == 0){
             return "FizzBuzz";
         }
