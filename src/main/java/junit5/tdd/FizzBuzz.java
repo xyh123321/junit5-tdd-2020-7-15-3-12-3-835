@@ -4,7 +4,7 @@ public class FizzBuzz {
 
     public String play(int inputNum) {
 
-        return null;
+        return String.valueOf(inputNum);
     }
 
 }
