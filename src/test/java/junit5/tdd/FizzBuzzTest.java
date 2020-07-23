@@ -10,10 +10,9 @@ public class FizzBuzzTest {
     void should_return_1_when_count_off_given_1() {
         //given
         FizzBuzz fizzBuzz = new FizzBuzz();
-        int inputNum = 1;
 
         //when
-        String res = fizzBuzz.play(inputNum);
+        String res = fizzBuzz.play(1);
 
         //then
         assertEquals("1", res);
@@ -24,7 +23,6 @@ public class FizzBuzzTest {
     void should_return_fizz_when_count_off_given_3() {
         //given
         FizzBuzz fizzBuzz = new FizzBuzz();
-        int inputNum = 3;
 
         //when
         String res = fizzBuzz.play(3);
@@ -32,4 +30,5 @@ public class FizzBuzzTest {
         //then
         assertEquals("Fizz", res);
     }
+
 }
