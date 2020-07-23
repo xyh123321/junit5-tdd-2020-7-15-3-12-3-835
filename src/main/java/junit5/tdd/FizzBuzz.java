@@ -15,6 +15,10 @@ public class FizzBuzz {
         if (inputNum %5 == 0) {
             return "Buzz";
         }
+
+        if(inputNum %7 ==0) {
+            return "Whizz";
+        }
         return String.valueOf(inputNum);
     }
 
